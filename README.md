@@ -98,5 +98,9 @@ installing GTkWave
   1.To create a block diagram of the project  
 
   2.Identifying input ports,output ports and input waveform,output waveform
-   
+
+   # Block diagram
+
+   ![im](https://github.com/NithishaBR/VSD/assets/160307537/57ec67dd-8a99-4c6a-be94-9597e2051a15)
+
 </details>
