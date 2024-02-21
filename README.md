@@ -92,6 +92,7 @@ installing GTkWave
 
 </details>
 
+### The second online meet was held on 20th of Feb 2024 @6PM
 <details>
     <summary> TASK 2 </summary>
   1.To create a block diagram of the project  
