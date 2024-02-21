@@ -91,3 +91,35 @@ installing GTkWave
 ![WhatsApp Image 2024-02-20 at 10 54 09_968b4260](https://github.com/NithishaBR/VSD/assets/160307537/ae8e253f-59ff-4281-b0f5-1285f021a426)
 
 </details>
+
+<details>
+    <summary> TASK 2 </summary>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</details>
+    
