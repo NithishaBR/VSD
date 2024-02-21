@@ -95,6 +95,7 @@ installing GTkWave
 <details>
     <summary> TASK 2 </summary>
  ### 1.To create a block diagram of the project
+   
  ### 2.Identifying input ports,output ports and input waveform,output waveform
    
 </details>
