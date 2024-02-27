@@ -108,5 +108,13 @@ installing GTkWave
 
    ![im1](https://github.com/NithishaBR/VSD/assets/160307537/a99649e3-3eae-4500-b22e-d631a0d2aadd)
 
+   
+
+   ![output](https://github.com/NithishaBR/VSD/assets/160307537/919cd77d-2c01-4fc8-870b-4b36492d9207)
+
+
+   ![wave](https://github.com/NithishaBR/VSD/assets/160307537/c39258c9-a461-4559-8765-2e14f79d1c48)
+
+
 
 </details>
