@@ -109,6 +109,23 @@ installing GTkWave
 <details>
     <summary> TASK 3 </summary>
 
+*Simulating iverilog*
+
+ ```iverilog piso_shift_register.v testbench.v``` 
+
+```./a.out``` 
+
+![n7](https://github.com/NithishaBR/VSD/assets/160307537/d47efd41-105c-40b4-94e8-55768a71d5bc)
+
+
+*Generating dump_file*
+
+ ```gtkwave dump.vcd```
+ 
+![n8](https://github.com/NithishaBR/VSD/assets/160307537/d8601610-f297-41e9-96cd-78ee1192d66c)
+
+
+
    # Waveform
 
    ![im1](https://github.com/NithishaBR/VSD/assets/160307537/a99649e3-3eae-4500-b22e-d631a0d2aadd)
@@ -195,7 +212,8 @@ installing GTkWave
 
 ![n4](https://github.com/NithishaBR/VSD/assets/160307537/8eccf282-ee50-473b-a4d8-6f29d1a87a44)
 
-![n5](https://github.com/NithishaBR/VSD/assets/160307537/be688643-db34-4a05-96f2-36a3c027d4ca)
+![n6](https://github.com/NithishaBR/VSD/assets/160307537/b33c38ff-e5f4-4fc3-9a41-ad90a0a58170)
+
 
  *Netlist waveform*
 
