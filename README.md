@@ -205,13 +205,15 @@ installing GTkWave
 
  ```gtkwave dump.vcd```
 
+ *Netlist waveform*
 
+ 
 ![n4](https://github.com/NithishaBR/VSD/assets/160307537/8eccf282-ee50-473b-a4d8-6f29d1a87a44)
 
 ![n6](https://github.com/NithishaBR/VSD/assets/160307537/b33c38ff-e5f4-4fc3-9a41-ad90a0a58170)
 
 
- *Netlist waveform*
+
 
 </details> 
 
