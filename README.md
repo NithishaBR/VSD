@@ -103,6 +103,11 @@ installing GTkWave
 
    ![im](https://github.com/NithishaBR/VSD/assets/160307537/57ec67dd-8a99-4c6a-be94-9597e2051a15)
 
+</details>
+
+### The Third online meet was held on 22th of Feb 2024 @6PM
+<details>
+    <summary> TASK 3 </summary>
 
    # Waveform
 
@@ -118,3 +123,82 @@ installing GTkWave
 
 
 </details>
+
+### The Fourth online meet was held on 27th of Feb 2024 @6PM
+
+<details>
+    <summary> TASK 4 </summary>
+
+*Invoking yosys inside verilog_code file:* 
+
+```yosys```
+
+*Reading the Library:*    
+
+```read_liberty -lib ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+*Reading the Design:*    
+
+```read_verilog piso_shift_register.v```
+
+
+*Specifying the module that we are synthesizing:*    
+
+```synth -top piso_shift_register```
+
+![n1](https://github.com/NithishaBR/VSD/assets/160307537/ecb986ad-ae99-481d-9bee-9bff70a92096)
+
+*To generate the netlist:*    
+
+```abc -liberty ../../sky130RTLDesignAndSynthesisWorkshop/lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+*To see the graphical version of the logic:*    
+
+```show```
+
+![n2](https://github.com/NithishaBR/VSD/assets/160307537/03cdad11-b66e-4ac8-92ac-315bde559d05)
+
+
+
+*To write the netlist:*    
+
+```write_verilog piso_shift_register_netlist.v```
+
+
+*Using the switch '-noattr' to get the simplified version of netlist file:*    
+
+```write_verilog -noattr piso_shift_register_netlist.v```
+
+![n3](https://github.com/NithishaBR/VSD/assets/160307537/91d97302-8cfd-4220-9fab-b1078ed5cadf)
+
+
+*To open the netlist:*    
+
+```!gvim piso_shift_register_netlist.v```
+
+![final netlist](<open netlist.jpg>)
+
+*Opening the netlist file:*
+
+![netlist file](netlist1.jpg)
+
+![netlist file](netlist2.jpg)
+
+*To check whether the netlist will match with the Design:*
+
+ ```iverilog piso_shift_register_netlist.v testbench.v``` 
+
+```./a.out``` 
+
+ ```gtkwave dump.vcd```
+
+
+![n4](https://github.com/NithishaBR/VSD/assets/160307537/8eccf282-ee50-473b-a4d8-6f29d1a87a44)
+
+![n5](https://github.com/NithishaBR/VSD/assets/160307537/be688643-db34-4a05-96f2-36a3c027d4ca)
+
+ *Netlist waveform*
+
+</details> 
+
+
