@@ -221,10 +221,6 @@ installing GTkWave
 
 <details>
   <summary> TASK 5 </summary>
-   
-  *Cloning gitub repository:*
-
-```git clone https://github.com/Priyanshu5437/iiitb_pipo1.git```
 
 ```iverilog iiitb_pipo.v iiitb_pipo_tb.v``` 
 
@@ -264,8 +260,52 @@ installing GTkWave
 *To generate the nestlist*
 
 ``` abc -liberty /home/nithishabr/vsd/iiitb_pipo1/lib/sky130_fd_sc_hd_tt_025c_1v80.lib``` 
+
 ![118](https://github.com/NithishaBR/VSD/assets/160307537/16dc7bb2-4b69-4531-afb7-4cdb73608c7b)
 
+*To write the netlist*
+
+
+```write_verilog netlist1.v``` 
+
+```write_verilog -noattr netlist1.v``` 
+
+
+*where -noattr is used to get simplified netlist file*
+
+```flatten``` 
+
+```show``` 
+
+
+![333](https://github.com/NithishaBR/VSD/assets/160307537/16decd50-544a-426f-84f6-75f878cac0da)
+
+![t76t](https://github.com/NithishaBR/VSD/assets/160307537/bb3198f0-593f-4916-981d-f61ca2220a67)
+
+*To open netlist*
+
+```!gvim netlist.v```
+
+![777](https://github.com/NithishaBR/VSD/assets/160307537/29e16e32-ff1b-4b87-9fdc-6d6888d0f7b7)
+
+*Opening the netlist file*
+
+![999](https://github.com/NithishaBR/VSD/assets/160307537/1cee06f1-b6f3-4636-a65a-1378abf319c1)
+
+
+*To verify whether netlist will match with the design*
+
+```iverilog ../iiitb_pipo/verilog_model/primitives.v ../iiitb_pipo/verilog_model/sky130_fd_sc_hd.v netlist1.v iiitb_pipo_tb.v```
+
+```./a.out``` 
+
+![999](https://github.com/NithishaBR/VSD/assets/160307537/87302019-3e0f-4741-8243-0e36d71af4d6)
+
+```gtkwave dump.vcd```
+
+![8989](https://github.com/NithishaBR/VSD/assets/160307537/d9b25360-d8aa-483d-921e-b9c151748c44)
+
+![3ww](https://github.com/NithishaBR/VSD/assets/160307537/5183be17-e0fe-4d49-8cfb-2c6a21189926)
 
 
 </details>
