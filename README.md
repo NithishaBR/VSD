@@ -217,4 +217,55 @@ installing GTkWave
 
 </details> 
 
+### The Fifth  online meet was held on First of march 2024 @6PM
 
+<details>
+  <summary> TASK 5 </summary>
+   
+  *Cloning gitub repository:*
+
+```git clone https://github.com/Priyanshu5437/iiitb_pipo1.git```
+
+```iverilog iiitb_pipo.v iiitb_pipo_tb.v``` 
+
+```gtkwave iiitb dump.vcd``` 
+
+![111](https://github.com/NithishaBR/VSD/assets/160307537/93bf8c38-51c1-45d7-add2-df59bda78bb2)
+
+![112](https://github.com/NithishaBR/VSD/assets/160307537/5109489f-4909-45be-9ced-d1b508f48977)
+
+
+
+*To generate netlist*
+
+```yosys``` 
+
+![113](https://github.com/NithishaBR/VSD/assets/160307537/0a3f2622-804d-435a-bfe9-d1b20f5ec5bd)
+
+
+
+*Reading the library*
+
+![115](https://github.com/NithishaBR/VSD/assets/160307537/f4e98cae-b342-4df0-b333-e77951d179fc)
+
+
+*Reading the design*
+
+```read_verilog iiitb_pipo.v``` 
+
+*Synthesizing the module*
+
+```synth -top iiitb_pipo``` 
+
+![116](https://github.com/NithishaBR/VSD/assets/160307537/df253ec7-5c70-4b96-8f04-f79dbca5f749)
+
+![117](https://github.com/NithishaBR/VSD/assets/160307537/d3a8f2f0-4d04-45c2-9116-e8bcbb481869)
+
+*To generate the nestlist*
+
+``` abc -liberty /home/nithishabr/vsd/iiitb_pipo1/lib/sky130_fd_sc_hd_tt_025c_1v80.lib``` 
+![118](https://github.com/NithishaBR/VSD/assets/160307537/16dc7bb2-4b69-4531-afb7-4cdb73608c7b)
+
+
+
+</details>
