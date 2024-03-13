@@ -299,7 +299,8 @@ installing GTkWave
 
 ```./a.out``` 
 
-![999](https://github.com/NithishaBR/VSD/assets/160307537/87302019-3e0f-4741-8243-0e36d71af4d6)
+![000](https://github.com/NithishaBR/VSD/assets/160307537/b82f933e-c9d9-46d0-9b5b-331df065b123)
+
 
 ```gtkwave dump.vcd```
 
