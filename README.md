@@ -306,7 +306,7 @@ installing GTkWave
 
 ![8989](https://github.com/NithishaBR/VSD/assets/160307537/d9b25360-d8aa-483d-921e-b9c151748c44)
 
-![3ww](https://github.com/NithishaBR/VSD/assets/160307537/5183be17-e0fe-4d49-8cfb-2c6a21189926)
+![9900](https://github.com/NithishaBR/VSD/assets/160307537/61d94873-25cd-452d-ae96-05f8a9b3ec7d)
 
 
 </details>
